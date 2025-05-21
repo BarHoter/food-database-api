@@ -1,0 +1,25 @@
+{
+  "name": "newweb",
+  "version": "1.0.0",
+  "description": "An Express-based web app and API for accessing food data and UI pages.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/barhoter/food-database-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/barhoter/food-database-api/issues"
+  },
+  "homepage": "https://github.com/barhoter/food-database-api#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "xlsx": "^0.18.5"
+  }
+}
