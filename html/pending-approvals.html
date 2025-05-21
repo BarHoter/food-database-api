@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoodShare - Pending Approvals</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/pending-approvals.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Pending Approvals</h1>
+            <a href="dashboard.html" class="back-btn">← Back to Dashboard</a>
+        </header>
+        
+        <main>
+            <div id="pendingTransactions" class="transactions-container">
+                <!-- Transactions will be loaded here -->
+            </div>
+        </main>
+    </div>
+
+    <!-- Transaction Template -->
+    <template id="transactionTemplate">
+        <div class="transaction-card">
+            <div class="transaction-header">
+                <h3>Transaction ID: <span class="transaction-id"></span></h3>
+                <span class="status-badge status-pending">Pending</span>
+            </div>
+            <div class="transaction-details">
+                <p><strong>Product:</strong> <span class="product-name"></span></p>
+                <p><strong>Seller:</strong> <span class="seller-id"></span></p>
+                <p><strong>Delivery Date:</strong> <span class="delivery-date"></span></p>
+                <p><strong>Quantity:</strong> <span class="quantity"></span></p>
+                <p><strong>Shipping Price:</strong> $<span class="shipping-price"></span></p>
+            </div>
+            <div class="transaction-actions">
+                <button class="approve-btn" onclick="approveTransaction(this)">Approve</button>
+                <button class="reject-btn" onclick="rejectTransaction(this)">Reject</button>
+            </div>
+        </div>
+    </template>
+
+    <script src="../js/pending-approvals.js"></script>
+</body>
+</html> 

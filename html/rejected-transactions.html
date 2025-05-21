@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoodShare - Rejected Transactions</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/rejected-transactions.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Rejected Transactions</h1>
+            <a href="dashboard.html" class="back-btn">← Back to Dashboard</a>
+        </header>
+        
+        <main>
+            <div id="roleIndicator" class="role-indicator"></div>
+            <div id="rejectedTransactions" class="transactions-container">
+                <!-- Transactions will be loaded here -->
+            </div>
+        </main>
+    </div>
+
+    <!-- Transaction Template -->
+    <template id="transactionTemplate">
+        <div class="transaction-card">
+            <div class="transaction-header">
+                <h3>Transaction ID: <span class="transaction-id"></span></h3>
+                <span class="status-badge status-rejected">Rejected</span>
+            </div>
+            <div class="transaction-details">
+                <p><strong>Product:</strong> <span class="product-name"></span></p>
+                <p><strong>Created Date:</strong> <span class="created-date"></span></p>
+                <p><strong>Delivery Date:</strong> <span class="delivery-date"></span></p>
+                <p><strong>Quantity:</strong> <span class="quantity"></span></p>
+                <p><strong>Shipping Price:</strong> $<span class="shipping-price"></span></p>
+                <p class="role-specific seller"><strong>Buyer:</strong> <span class="buyer-id"></span></p>
+                <p class="role-specific buyer"><strong>Seller:</strong> <span class="seller-id"></span></p>
+            </div>
+        </div>
+    </template>
+
+    <script src="../js/rejected-transactions.js"></script>
+</body>
+</html> 

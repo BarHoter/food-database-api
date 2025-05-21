@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoodShare - All Users</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/users.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>System Users</h1>
+            <div class="header-actions">
+                <a href="management.html" class="back-btn">Back to Management</a>
+                <button id="logoutBtn" class="logout-btn">Logout</button>
+            </div>
+        </header>
+        
+        <main>
+            <div class="filters">
+                <input type="text" id="searchInput" placeholder="Search users..." class="search-input">
+                <div class="filter-options">
+                    <select id="typeFilter" class="filter-select">
+                        <option value="">All Types</option>
+                        <option value="0">Administrator</option>
+                        <option value="1">Buyer</option>
+                        <option value="2">Seller</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="stats-container">
+                <div class="stat-card">
+                    <h3>Total Users</h3>
+                    <span id="totalUsers" class="stat-value">0</span>
+                </div>
+                <div class="stat-card">
+                    <h3>Active Buyers</h3>
+                    <span id="totalBuyers" class="stat-value">0</span>
+                </div>
+                <div class="stat-card">
+                    <h3>Active Sellers</h3>
+                    <span id="totalSellers" class="stat-value">0</span>
+                </div>
+            </div>
+
+            <div id="usersContainer" class="users-grid">
+                <!-- Users will be loaded here -->
+                <div class="loading">Loading users...</div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Modal for user transactions -->
+    <div id="transactionsModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>User Transactions</h2>
+                <button class="close-modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="transactions-tabs">
+                    <button class="tab-btn active" data-tab="all">All</button>
+                    <button class="tab-btn" data-tab="buyer">As Buyer</button>
+                    <button class="tab-btn" data-tab="seller">As Seller</button>
+                </div>
+                <div id="userTransactions" class="transactions-list">
+                    <!-- Transactions will be loaded here -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/view-all-users.js"></script>
+</body>
+</html> 

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Food Trade System</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Dashboard</h1>
+        
+        <!-- Seller Section -->
+        <div id="sellerSection" style="display: none;">
+            <h2>Seller Actions</h2>
+            <div class="nav-menu">
+                <a href="add-transaction.html" class="nav-item" id="addTransactionCard">
+                    <h3>Add New Transaction</h3>
+                    <p>Create a new transaction for your buyers</p>
+                </a>
+                <a href="approved-transactions.html?role=seller" class="nav-item">
+                    <h3>My Sales - Approved</h3>
+                    <p>View your approved sales history</p>
+                </a>
+                <a href="rejected-transactions.html?role=seller" class="nav-item">
+                    <h3>My Sales - Rejected</h3>
+                    <p>View your rejected sales history</p>
+                </a>
+            </div>
+        </div>
+
+        <!-- Buyer Section -->
+        <div id="buyerSection">
+            <h2>Buyer Actions</h2>
+            <div class="nav-menu">
+                <a href="pending-approvals.html" class="nav-item">
+                    <h3>Pending Approvals</h3>
+                    <p>View and manage transactions waiting for your approval</p>
+                </a>
+                <a href="approved-transactions.html?role=buyer" class="nav-item">
+                    <h3>My Purchases - Approved</h3>
+                    <p>View your approved purchases history</p>
+                </a>
+                <a href="rejected-transactions.html?role=buyer" class="nav-item">
+                    <h3>My Purchases - Rejected</h3>
+                    <p>View your rejected purchases history</p>
+                </a>
+            </div>
+        </div>
+    </div>
+    <script src="../js/dashboard.js"></script>
+</body>
+</html> 

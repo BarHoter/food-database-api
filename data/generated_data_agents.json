@@ -1,0 +1,117 @@
+[
+  {
+    "AgentID": "Citizens",
+    "Address": null,
+    "Type": 4
+  },
+  {
+    "AgentID": "Disposel",
+    "Address": "Hiria",
+    "Type": 5
+  },
+  {
+    "AgentID": "brglyvsp_4657",
+    "Address": "יואב 10, גבעת ח\"ן, 6916697",
+    "Type": 2
+  },
+  {
+    "AgentID": "tlyhmrvm_9935",
+    "Address": "נצרת עילית 51, מכמורת, 7048281",
+    "Type": 3
+  },
+  {
+    "AgentID": "lvynvpyr_2535",
+    "Address": "הפרדס 88, עמוקה, 7015430",
+    "Type": 2
+  },
+  {
+    "AgentID": "yhvdhmdr_4257",
+    "Address": "עובדי הנמל 18, ברקאי, 8248963",
+    "Type": 2
+  },
+  {
+    "AgentID": "lgbryn_5557",
+    "Address": "נחל סרפד 78, בני ציון, 3150983",
+    "Type": 2
+  },
+  {
+    "AgentID": "mrgyly_7924",
+    "Address": "סמ הרכבת 31, יד רמב\"ם, 8347382",
+    "Type": 3
+  },
+  {
+    "AgentID": "yvsp35_2674",
+    "Address": "רבקה אמנו 31, צורית, 5667010",
+    "Type": 2
+  },
+  {
+    "AgentID": "khznmvkhmd_6635",
+    "Address": "הברוש 38, ברקת, 2473178",
+    "Type": 3
+  },
+  {
+    "AgentID": "mytl78_3045",
+    "Address": "תפארת ישראל 32, נוקדים, 3602606",
+    "Type": 1
+  },
+  {
+    "AgentID": "skhmd_6925",
+    "Address": "הרקפת 23, גני מודיעין, 9805009",
+    "Type": 1
+  },
+  {
+    "AgentID": "hylydlr_4733",
+    "Address": "ש קואפרטיבים 21, רגבה, 6193990",
+    "Type": 2
+  },
+  {
+    "AgentID": "thl31_7227",
+    "Address": "שכ עראק אלשבאב 35, העוגן, 2475107",
+    "Type": 3
+  },
+  {
+    "AgentID": "vz52_7065",
+    "Address": "יהודה המכבי 25, האון, 4278498",
+    "Type": 2
+  },
+  {
+    "AgentID": "khyym41_3803",
+    "Address": "שכ רסקו 41, שיטים, 4493534",
+    "Type": 3
+  },
+  {
+    "AgentID": "gpnkhvry_4598",
+    "Address": "אל-סביל סמ6 40, יד רמב\"ם, 4278680",
+    "Type": 3
+  },
+  {
+    "AgentID": "nvyh03_1525",
+    "Address": "כרם חמד 59, מכמורת, 0450533",
+    "Type": 1
+  },
+  {
+    "AgentID": "nvr13_6155",
+    "Address": "תרצ\"ו 32, מגן, 2563421",
+    "Type": 3
+  },
+  {
+    "AgentID": "prtkhyymvb_8517",
+    "Address": "דרך שועפאט סמ4 75, דוב\"ב, 0365414",
+    "Type": 3
+  },
+  {
+    "AgentID": "yvntngvrdvn_9830",
+    "Address": "שכ רסקו 14, עין צורים, 0196556",
+    "Type": 2
+  },
+  {
+    "AgentID": "ysmyn69_7543",
+    "Address": "הגפן 60, כפר יונה, 1595148",
+    "Type": 2
+  },
+  {
+    "AgentID": "foodgod",
+    "Address": "Admin Headquarters, Tel Aviv",
+    "Type": 0
+  }
+]
