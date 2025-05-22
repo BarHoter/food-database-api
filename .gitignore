@@ -39,6 +39,9 @@ ENV/
 ehthumbs.db
 Thumbs.db
 
+# Node.js
+node_modules/
+
 # Project specific
 data/*.xlsx
 data/*.json
