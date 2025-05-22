@@ -1,6 +1,7 @@
 const express = require('express');  // ← זה חשוב!
 const cors = require('cors');
 const fs = require('fs');
+const path = require('path');        // ← זה מה שחסר
 const xlsx = require('xlsx');
 const app = express();
 const PORT = process.env.PORT || 3000;
